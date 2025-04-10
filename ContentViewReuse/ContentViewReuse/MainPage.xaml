@@ -6,8 +6,12 @@
              x:Class="ContentViewReuse.MainPage">
 
     <StackLayout>
+        <Label Text="ContentPage Start" />
+        <Label Text="ContentView Start" />
         <local:MyView Title="Item" EntryText="{Binding ItemNr}" />
+        <Label Text="ContentView End" />
         <Label Text="{Binding ItemNr}" />
+        <Label Text="ContentPage End" />
     </StackLayout>
 
 </ContentPage>
